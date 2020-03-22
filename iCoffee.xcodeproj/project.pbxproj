@@ -10,7 +10,7 @@
 		015FF561A830A67A0A9CD299 /* Pods_iCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DA9377FC0E74CF1E133973 /* Pods_iCoffee.framework */; };
 		B5EB819024276BA500FBB5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB818F24276BA500FBB5AD /* AppDelegate.swift */; };
 		B5EB819224276BA500FBB5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB819124276BA500FBB5AD /* SceneDelegate.swift */; };
-		B5EB819424276BA500FBB5AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB819324276BA500FBB5AD /* ContentView.swift */; };
+		B5EB819424276BA500FBB5AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB819324276BA500FBB5AD /* HomeView.swift */; };
 		B5EB819624276BA700FBB5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EB819524276BA700FBB5AD /* Assets.xcassets */; };
 		B5EB819924276BA700FBB5AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EB819824276BA700FBB5AD /* Preview Assets.xcassets */; };
 		B5EB819C24276BA700FBB5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EB819A24276BA700FBB5AD /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 		B5EB818C24276BA500FBB5AD /* iCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EB818F24276BA500FBB5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5EB819124276BA500FBB5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5EB819324276BA500FBB5AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5EB819324276BA500FBB5AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B5EB819524276BA700FBB5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5EB819824276BA700FBB5AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5EB819B24276BA700FBB5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,15 +82,14 @@
 			children = (
 				B5EB818F24276BA500FBB5AD /* AppDelegate.swift */,
 				B5EB819124276BA500FBB5AD /* SceneDelegate.swift */,
-				B5EB819324276BA500FBB5AD /* ContentView.swift */,
+				B5EB819324276BA500FBB5AD /* HomeView.swift */,
 				B5EB819524276BA700FBB5AD /* Assets.xcassets */,
 				B5EB819A24276BA700FBB5AD /* LaunchScreen.storyboard */,
 				B5EB819D24276BA700FBB5AD /* Info.plist */,
 				B5EB81A524276D7400FBB5AD /* GoogleService-Info.plist */,
 				B5EB819724276BA700FBB5AD /* Preview Content */,
-				B5EB81A72427A79800FBB5AD /* Drink.swift */,
-				B5EB81A92427ADBA00FBB5AD /* FirebaseReference.swift */,
-				B5EB81AB2427AEA400FBB5AD /* Constants.swift */,
+				B5EB81AE2427BACE00FBB5AD /* Model */,
+				B5EB81AD2427BABB00FBB5AD /* Helper */,
 			);
 			path = iCoffee;
 			sourceTree = "<group>";
@@ -101,6 +100,23 @@
 				B5EB819824276BA700FBB5AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5EB81AD2427BABB00FBB5AD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B5EB81A92427ADBA00FBB5AD /* FirebaseReference.swift */,
+				B5EB81AB2427AEA400FBB5AD /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B5EB81AE2427BACE00FBB5AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5EB81A72427A79800FBB5AD /* Drink.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FBEE6F492E6EE12484AAF13F /* Frameworks */ = {
@@ -231,7 +247,7 @@
 				B5EB819024276BA500FBB5AD /* AppDelegate.swift in Sources */,
 				B5EB819224276BA500FBB5AD /* SceneDelegate.swift in Sources */,
 				B5EB81A82427A79800FBB5AD /* Drink.swift in Sources */,
-				B5EB819424276BA500FBB5AD /* ContentView.swift in Sources */,
+				B5EB819424276BA500FBB5AD /* HomeView.swift in Sources */,
 				B5EB81AC2427AEA400FBB5AD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
