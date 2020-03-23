@@ -9,11 +9,27 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    var categories: [String: [Drink]] {
+        
+        .init(
+        grouping: drinkData,
+        by: {$0.category.rawValue})
+        
+    }
     var body: some View {
         
         NavigationView {
             
-            Text("Hi")
+            List(categories.keys.sorted(), id: \String.self) {
+                key in
+                DrinkRow(categoryName: "\(key) Drink".uppercased(), drinks: self.categories[key]!)
+                    .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
+            }
+                
+                
                 .navigationBarTitle(Text("iCoffee"))
                 .navigationBarItems(leading:
                     

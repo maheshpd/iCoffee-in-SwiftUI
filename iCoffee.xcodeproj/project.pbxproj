@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		015FF561A830A67A0A9CD299 /* Pods_iCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DA9377FC0E74CF1E133973 /* Pods_iCoffee.framework */; };
+		B55071752428E68F00E9CCCB /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55071742428E68F00E9CCCB /* DrinkRow.swift */; };
+		B55071772428E9E100E9CCCB /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55071762428E9E100E9CCCB /* DrinkItem.swift */; };
 		B5EB819024276BA500FBB5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB818F24276BA500FBB5AD /* AppDelegate.swift */; };
 		B5EB819224276BA500FBB5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB819124276BA500FBB5AD /* SceneDelegate.swift */; };
 		B5EB819424276BA500FBB5AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB819324276BA500FBB5AD /* HomeView.swift */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		0F7BEB963121446A54581E17 /* Pods-iCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffee.debug.xcconfig"; path = "Target Support Files/Pods-iCoffee/Pods-iCoffee.debug.xcconfig"; sourceTree = "<group>"; };
 		54DA9377FC0E74CF1E133973 /* Pods_iCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55071742428E68F00E9CCCB /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		B55071762428E9E100E9CCCB /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 		B5EB818C24276BA500FBB5AD /* iCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EB818F24276BA500FBB5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5EB819124276BA500FBB5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				B5EB819724276BA700FBB5AD /* Preview Content */,
 				B5EB81AE2427BACE00FBB5AD /* Model */,
 				B5EB81AD2427BABB00FBB5AD /* Helper */,
+				B55071742428E68F00E9CCCB /* DrinkRow.swift */,
+				B55071762428E9E100E9CCCB /* DrinkItem.swift */,
 			);
 			path = iCoffee;
 			sourceTree = "<group>";
@@ -244,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EB81AA2427ADBA00FBB5AD /* FirebaseReference.swift in Sources */,
+				B55071772428E9E100E9CCCB /* DrinkItem.swift in Sources */,
 				B5EB819024276BA500FBB5AD /* AppDelegate.swift in Sources */,
+				B55071752428E68F00E9CCCB /* DrinkRow.swift in Sources */,
 				B5EB819224276BA500FBB5AD /* SceneDelegate.swift in Sources */,
 				B5EB81A82427A79800FBB5AD /* Drink.swift in Sources */,
 				B5EB819424276BA500FBB5AD /* HomeView.swift in Sources */,
