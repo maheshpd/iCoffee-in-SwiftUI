@@ -6,8 +6,9 @@ target 'iCoffee' do
   use_frameworks!
 
   # Pods for iCoffee
+
   pod 'Firebase/Core' 
   pod 'Firebase/Auth'
-  pod 'Firebase/Firestore' 
+  pod 'Firebase/Firestore'
 
 end

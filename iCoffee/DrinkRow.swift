@@ -9,11 +9,8 @@
 import SwiftUI
 
 struct DrinkRow: View {
-    
     var categoryName: String
     var drinks: [Drink]
-    
-    
     var body: some View {
       
         VStack(alignment: .leading) {

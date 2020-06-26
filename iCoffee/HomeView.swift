@@ -9,9 +9,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    
     var categories: [String: [Drink]] {
-        
         .init(
         grouping: drinkData,
         by: {$0.category.rawValue})
@@ -43,8 +41,7 @@ struct HomeView: View {
                     
                     , trailing:
                     Button(action: {
-                        //Code
-                        
+                     
                         print("basket")
                         
                     }, label: {
